@@ -31,5 +31,5 @@ $
 ### Contact Info:
 #### Git: SAMSON MICHIRA
 
-#### Git: LEONALD CHEPKWONY
+#### Git: LEONARD CHEPKWONY
 
