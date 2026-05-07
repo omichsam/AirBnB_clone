@@ -1,35 +1,49 @@
-"#AirBnB_clone" 
-# AirBnB clone - The console
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=FF5A5F&height=150&section=header&text=AirBnB%20Clone&fontSize=36&fontColor=ffffff&fontAlignY=40&desc=Full-Stack%20Python%20%E2%80%94%20Console%20%7C%20Web%20%7C%20API%20%7C%20Dynamic&descAlignY=60&descColor=ffffff" width="100%"/>
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![ALX](https://img.shields.io/badge/ALX_Africa-00ff9f?style=for-the-badge&logoColor=black)
+</div>
 
-The AirBnB console this about create a minishell, this console works in interactive and non-interactive mode; this project is just a basic copy of AirBnB, 
+## Overview
+A full-stack clone of **AirBnB** built progressively across 4 versions as part of the **ALX Software Engineering Programme**. Covers every layer of a production web application — from console to dynamic frontend.
 
-# command interpreter or console
-The first piece is to manipulate a powerful storage system. This storage engine will give us an abstraction between “My object” and “How they are stored and persisted”. This means: from your console code (the command interpreter itself) and from the front-end and RestAPI you will build later, you won’t have to pay attention (take care) of how your objects are stored.
-#  how to start it:
-In order to start the console, you must use the following command: ./console.py
+## Version Roadmap
 
-# How to used:
-- manage (create, update, destroy, etc) objects via a console / command interprete
-- store and persist objects to a file (JSON file)
-- Commands: create, show, destroy, all (shows all), update, help, quit
-### Example how to open:
+| Version | Focus | Key Technologies |
+|---|---|---|
+| **v1 — Console** | Python OOP, serialisation, file storage | Python, JSON |
+| **v2 — MySQL** | Database storage, ORM, environment config | MySQL, SQLAlchemy |
+| **v3 — REST API** | RESTful API design, Flask, CRUD operations | Flask, REST API |
+| **v4 — Web Dynamic** | Dynamic frontend, AJAX, jQuery | JavaScript, jQuery |
+
+## Architecture
 ```
-$ ./console.py
-(hbnb) help
-
-Documented commands (type help <topic>):
-========================================
-EOF  help  quit
-
-(hbnb) 
-(hbnb) 
-(hbnb) quit
-$
+Console (CLI) → Storage Engine (File / DB) → REST API → Web Frontend
+                        ↕
+               MySQL / SQLAlchemy ORM
 ```
 
-### Contact Info:
-#### Git: SAMSON MICHIRA
+## Tech Stack
+- **Python** — Core OOP, models, business logic
+- **Flask** — Web framework and API server
+- **SQLAlchemy** — ORM for MySQL integration
+- **MySQL** — Production database
+- **HTML/CSS/JavaScript** — Frontend templates
+- **jQuery/AJAX** — Dynamic content loading
 
-#### Git: LEONARD CHEPKWONY
+## Setup
+```bash
+git clone https://github.com/omichsam/AirBnB_clone.git
+cd AirBnB_clone
+pip install -r requirements.txt
+./console.py  # Start the CLI console
+```
 
+---
+<div align="center">
+Part of <strong>ALX Software Engineering Programme</strong> | <a href="https://omichsam.github.io">Portfolio</a> · <a href="https://www.linkedin.com/in/michira-samson">LinkedIn</a>
+</div>
